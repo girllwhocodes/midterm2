@@ -1,0 +1,298 @@
+  body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content__text {
+  overflow: hidden;
+  background-color: white;
+}
+
+.content__text a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.content__text a:hover {
+  text-decoration: underline;
+  color: black;
+
+}
+
+.content__image {
+  position  : relative;
+}
+.content__image {
+ position  : absolute;
+  top   : 1px;
+  margin: 10px;
+  width: 500px;
+}
+
+p{
+  text-align: left;
+  padding-right: 50%;
+
+}
+
+.content__source {
+  text-align: left;
+  padding-right: 50%;
+
+}
+
+input[type=submit] {
+  color: white;
+  background: black;
+  font-size: 20px;
+  border-radius: 5px ;
+}
+
+.content__info {
+  position: relative;
+  right: 50px;
+  top: 150px;
+  width:90%;
+}
+.content__block{
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  width: 550px;
+  height: 550px;
+}
+.content__links {
+}
+h4 {
+  text-decoration: none;
+}
+footer {
+  padding: 20px;
+  background-color:#fde8e8;
+  color: black;
+  text-decoration:none;
+ width: 100%;
+   
+}
+.circle-button{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  display: inline-block;
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.circle-button:hover{
+  animation: circle-anim 0.3s ease forwards;
+  transition: all 0.4s ease;
+}
+.grow-container{
+  display: inline-block;
+  margin: 1em;
+}
+.to-twitter:hover{
+  background: #1DA1F3;
+}
+.to-instagram:hover{
+  background: #FF4040;
+}
+@keyframes circle-anim{
+  0% {
+    
+  }
+  
+  90%{
+    padding: 0.35em;
+    margin: -0.35em; 
+  }
+  
+  100%{
+    padding: 0.25em;
+    margin: -0.25em; 
+  }
+}
+H1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    width: 10%;
+   }
+  .round1 {
+    width: 100px;    
+  }
+.content__underline {
+  box-sizing: border-box;
+      text-decoration: none;
+      margin: 10px;
+      text-align: center;
+      
+}
+#rectangle_1 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(211, 232, 225)
+}
+
+#rectangle_2 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(248, 232, 199)
+    }
+
+  #rectangle_3 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(255, 209, 198)
+}
+
+#rectangle_4 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+     margin: 25px;
+    background: rgb(48, 220, 166)
+}
+
+#rectangle_5 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+     margin: 25px;
+    background: rgb(252, 243, 175)
+}
+#rectangle_6 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(255, 153, 102)
+}
+#rectangle_7 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(255, 163, 187) 
+}
+#rectangle_8 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(171, 206, 226)
+}
+#rectangle_9 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(230, 230, 250)
+}
+#rectangle_10 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(230, 230, 230)
+}
+#rectangle_11 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(252, 228, 242)
+}
+#rectangle_12 {
+    width: 360px;
+    height: 80px;
+    padding: 45px;
+    margin: 25px;
+    background: rgb(163, 196, 253)
+}
+
+#rectangle_13 {
+    width: 360px;
+    height: 80px;
+    padding: 48px;
+    background: rgb(244, 238, 224)
+}
+
+.text-center {
+text-align: center;
+}
+
+.block1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.links2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
